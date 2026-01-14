@@ -180,4 +180,4 @@ We trained **LambdaMART** with **LightGBM** (and compared to XGBoost), optimizin
 ## Artifacts
 
 - **Paper:** {% cite della2022lightweight %} ([PDF](/assets/pdf/3556702.3556829.pdf))    
-- **Code:** https://github.com/recsyspolimi/recsys-challenge-2022-dressipi
+- **Code:** [Repository](https://github.com/recsyspolimi/recsys-challenge-2022-dressipi)
