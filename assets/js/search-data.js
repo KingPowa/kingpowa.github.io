@@ -399,6 +399,11 @@ ninja.data = [{
           description: "A framework for explaining deep neural networks for neuroimaging via generative modelling based on large-scale data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diffusion_validation.html";
+            },},{id: "projects-genetic-algorithms-for-flexible-job-shop-scheduling",
+          title: 'Genetic Algorithms for Flexible Job Shop Scheduling',
+          description: "A Python implementation of Genetic Algorithms for the NP-hard Flexible Job Shop Scheduling Problem (FJSP), comparing multiple GA variants (initialization, selection, crossover, mutation) and evaluating them on benchmark instances.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/jobshop.html";
             },},{id: "projects-lightweight-recommender-system-for-recsys-2022",
           title: 'Lightweight recommender system for Recsys 2022',
           description: "A recommender system framework for Recsys 2022 for session-based fashion recommendation that we used in our paper.",
