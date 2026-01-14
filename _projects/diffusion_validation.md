@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Saliency-Based explanations via generative modelling
+description: A framework for explaining deep neural networks for neuroimaging via generative modelling based on large-scale data.
+img: assets/img/projects/HDPS/method.png
+importance: 1
+category: Research
+related_publications: false
 ---
+
+{% comment %}
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -44,8 +46,8 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
+You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+Say you wanted to write a bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
@@ -77,5 +79,13 @@ Here's the code for the last row of images above:
   </div>
 </div>
 ```
-
 {% endraw %}
+
+{% endcomment %}
+
+In this project, we propose a framework for explaining deep neural networks for neuroimaging via generative modelling based on large-scale data. The idea is to ground the explanations in the data distribution, and to use the generative model to generate synthetic data that is as similar as possible to the real data.
+
+The project is under construction and will be published soon :)
+
+
+

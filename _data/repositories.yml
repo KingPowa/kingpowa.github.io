@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - kingpowa
 
-repo_description_lines_max: 2
+repo_description_lines_max: 4
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - kingpowa/Genetic_Algorithm_FJSP
+  - kingpowa/Rec_Sys_2022_Boston_Team
+  - kingpowa/brain_age_lessons

@@ -1,34 +1,41 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: francescos.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: |
+    <p>Location</p>: Tubingen, Germany
+    <p>
+      <a href="https://github.com/your-username" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/your-username" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="mailto:your.email@example.com" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+# announcements:
+#   enabled: true # includes a list of news items
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+#   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Francesco Sammarco is a PhD student at the University of Tübingen, affiliated with [IMPRS](https://imprs.is.mpg.de/), working with the [Mental Health Mapping](https://mhm-lab.github.io/) Lab on machine learning methods for complex mental health challenges. His current work explores explainable AI and generative modeling for neuroimaging, with an emphasis on understanding model reasoning and building reliable pipelines for large-scale medical data.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before moving fully into research, he worked as a DevOps engineer and telco consultant at Hewlett Packard Enterprise, where he built CI/CD automation and production-grade backend integrations, experience he now applies to reproducible ML workflows. He has co-authored work on medical image segmentation model merging (MedSAMix) and earlier published in recommender systems research, bridging applied engineering with research-driven innovation. He also worked on Reinforcement Learning for Trading, focusing on non-stationary RL for Forex trading with automatic market regime clustering.

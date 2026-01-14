@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <style>
+      .box { fill: #f3f1ea; stroke: #2b2b2b; stroke-width: 2; rx: 14; ry: 14; }
+      .title { font-family: "Times New Roman", serif; font-size: 18px; font-weight: 600; fill: #1b1b1b; }
+      .body { font-family: "Times New Roman", serif; font-size: 14px; fill: #1b1b1b; }
+      .arrow { stroke: #2b2b2b; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2b2b2b" />
+    </marker>
+  </defs>
+
+  <rect class="box" x="30" y="60" width="230" height="140" />
+  <text class="title" x="55" y="95">Session Data</text>
+  <text class="body" x="55" y="120">Views + timestamps</text>
+  <text class="body" x="55" y="142">Item attributes</text>
+  <text class="body" x="55" y="164">Seasonality signal</text>
+
+  <line class="arrow" x1="260" y1="130" x2="350" y2="130" />
+
+  <rect class="box" x="350" y="60" width="230" height="140" />
+  <text class="title" x="375" y="95">Candidate Pool</text>
+  <text class="body" x="375" y="120">GRU4Rec</text>
+  <text class="body" x="375" y="142">KNN / RP3Beta</text>
+  <text class="body" x="375" y="164">VAE / TopPop</text>
+
+  <line class="arrow" x1="580" y1="130" x2="670" y2="130" />
+
+  <rect class="box" x="670" y="60" width="230" height="140" />
+  <text class="title" x="695" y="95">Feature Fusion</text>
+  <text class="body" x="695" y="120">Embeddings + scores</text>
+  <text class="body" x="695" y="142">Seasonality features</text>
+  <text class="body" x="695" y="164">Range normalization</text>
+
+  <line class="arrow" x1="900" y1="130" x2="990" y2="130" />
+
+  <rect class="box" x="990" y="60" width="180" height="140" />
+  <text class="title" x="1015" y="95">GBDT Ranker</text>
+  <text class="body" x="1015" y="120">LambdaMART</text>
+  <text class="body" x="1015" y="142">Top-100 list</text>
+  <text class="body" x="1015" y="164">MRR target</text>
+</svg>
