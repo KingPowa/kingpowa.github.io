@@ -394,7 +394,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-saliency-based-explanations-via-generative-modelling",
+          section: "News",},{id: "projects-app-development-at-apple-developer-academy",
+          title: 'App Development at Apple Developer Academy',
+          description: "A collection of iOS apps and product prototypes developed during my experience at Apple Developer Academy, showcasing growth in app development, design, and teamwork.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/appleaca.html";
+            },},{id: "projects-saliency-based-explanations-via-generative-modelling",
           title: 'Saliency-Based explanations via generative modelling',
           description: "A framework for explaining deep neural networks for neuroimaging via generative modelling based on large-scale data.",
           section: "Projects",handler: () => {
