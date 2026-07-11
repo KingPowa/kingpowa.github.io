@@ -10,13 +10,13 @@ profile:
   more_info: |
     <p>Location</p>: Naples, Italy
     <p>
-      <a href="https://github.com/your-username" title="GitHub">
+      <a href="https://github.com/kingpowa" title="GitHub">
         <i class="fa-brands fa-github"></i>
       </a>
-      <a href="https://www.linkedin.com/in/your-username" title="LinkedIn">
+      <a href="https://www.linkedin.com/in/fra-sammarco" title="LinkedIn">
         <i class="fa-brands fa-linkedin"></i>
       </a>
-      <a href="mailto:your.email@example.com" title="Email">
+      <a href="mailto:ing.sammarco.francesco@gmail.com" title="Email">
         <i class="fa-solid fa-envelope"></i>
       </a>
     </p>
