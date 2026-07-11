@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
   "meta": {
     "version": "v1.0.0",
-    "lastModified": "2025-12-19"
+    "lastModified": "2026-07-11"
   },
   "basics": {
     "name": "Francesco Sammarco",
-    "label": "Computer Science Engineer, AI Engineer & Researcher",
+    "label": "Generative AI & Forward Deployed Engineer",
     "email": "ing.sammarco.francesco@gmail.com",
+    "summary": "Generative AI and cloud engineer with approximately 5 years of experience building customer-facing software, AI agents, cloud infrastructure, and delivery automation. Currently designs and ships enterprise multi-agent, knowledge-management, and agentic analytics systems using Python, LangGraph, LangChain, MCP, AWS, Azure, Terraform, Kubernetes, Qdrant, and Neo4j, combining hands-on implementation with direct stakeholder collaboration.",
     "location": {
-      "city": "Tübingen",
-      "countryCode": "DE"
+      "countryCode": "IT"
     },
     "profiles": [
       {
@@ -22,21 +22,40 @@
         "network": "GitHub",
         "username": "kingpowa",
         "url": "https://github.com/kingpowa"
+      },
+      {
+        "network": "Portfolio",
+        "username": "kingpowa.github.io",
+        "url": "https://kingpowa.github.io/"
       }
     ]
   },
   "work": [
     {
-      "name": "University of Tübingen",
-      "position": "Researcher in Applied Artificial Intelligence",
-      "location": "Tübingen, DE",
-      "startDate": "2024-09",
-      "summary": "Research role in applied AI for neuroimaging and clinical/psychiatric datasets, focusing on explainable AI and generative modeling.",
+      "name": "Live Reply",
+      "position": "AI/ML Engineer Consultant",
+      "location": "Remote / Turin, Italy",
+      "startDate": "2026-03",
+      "summary": "Generative AI consulting focused on enterprise multi-agent systems, knowledge management, agentic analytics, and cloud infrastructure.",
       "highlights": [
-        "Collaborating within the Mental Health Mapping Lab investigating 2D and 3D computer vision models through explainable AI (XAI) and generative model–based algorithms.",
-        "Designing an end-to-end PyTorch-based ML workflow for large neuroimaging datasets to validate XAI explanations and probe model reasoning for mental disorders classification (CNNs) with Diffusion Models; using FreeSurfer, CAT, MONAI, batchgenerators, Lightning, Accelerator, W&B, MLflow; applying LLM tooling to psychiatric/clinical datasets; contributing to medical image segmentation foundation models (SAM).",
-        "Handling large-scale imaging (DICOM/NIFTI) and tabular data (~70k images, ~300k records) with intensive validation, processing, and QA for downstream training and analysis.",
-        "Managing a Slurm-based HPC cluster for distributed and parallel training of deep learning models."
+        "Delivered an enterprise GenAI knowledge-management system over 200+ technical documents, reducing operator search time by 52% through ingestion pipelines, retrieval evaluation, Qdrant, Neo4j, and agentic GraphRAG workflows.",
+        "Designed an Azure-based agentic analytics platform that converts transactional data into validated, actionable reports, reducing recurring report preparation time by 81% through SQL and object-storage integration, specialized agents, workflow memory, and automated quality checks.",
+        "Built a stateful multi-agent orchestration platform with Python and LangGraph, enabling non-technical users to execute AI-assisted business processes and reducing end-to-end execution time by approximately 50%.",
+        "Implemented reusable agent integrations using tool calling, MCP-compatible interfaces, structured Pydantic schemas, and human-in-the-loop workflow stages across 4 engineering teams.",
+        "Provisioned reproducible AWS environments with Terraform, Kubernetes, networking, load balancing, API gateways, and containerized AI services, supporting separate development, testing, and production configurations.",
+        "Led GenAI coding-platform adoption across 4 engineering teams by defining agent workflows, repository-aware development practices, and reusable tool integrations for multiple software-delivery use cases."
+      ]
+    },
+    {
+      "name": "University of Tübingen, Mental Health Mapping Lab",
+      "position": "Applied AI Researcher",
+      "location": "Remote / Tübingen, Germany",
+      "startDate": "2024-09",
+      "summary": "Applied AI research in psychiatric neuroimaging, generative modeling, explainable AI, and medical-image analysis.",
+      "highlights": [
+        "Built a reproducible PyTorch and SLURM pipeline for distributed medical-image training, inference, experiment tracking, and explainability evaluation across approximately 70,000 DICOM/NIfTI images and 300,000 clinical records.",
+        "Developed generative-AI and explainable-AI methods for psychiatric neuroimaging, combining diffusion-based counterfactual generation, computer vision, statistical evaluation, and clinically oriented model interpretation.",
+        "Contributed to 2 open-source medical-AI projects covering foundation-model merging and neuroimaging explainability, including MedSAMix and HDPS."
       ],
       "projects": [
         {
@@ -50,51 +69,36 @@
       ]
     },
     {
-      "name": "Hewlett Packard Enterprise (HPE)",
-      "position": "DevOps Engineer, Telco Consultant",
-      "location": "Milan, IT",
-      "startDate": "2022-10",
-      "endDate": "2024-08",
-      "summary": "DevOps/consulting role delivering CI/CD, backend integration, and delivery automation for a major Telco client.",
+      "name": "BeyondShape",
+      "position": "Applied AI Researcher, Short-Term Collaboration",
+      "location": "Naples, Italy",
+      "startDate": "2026-02",
+      "endDate": "2026-03",
       "highlights": [
-        "Led a development team for a major Telco client, managing continuous integration of feature requests and collaborating with customer stakeholders.",
-        "Designed and implemented a Jenkins CI/CD pipeline (including automated SQL deployments) integrating with a Spring-based automation tool via API, reducing deployment time by ~90% and significantly cutting manual errors.",
-        "Implemented new business logic and integration features in Java and SQL for backend services.",
-        "Coordinated version control via Git across internal and client repositories and managed Dockerization of parts of the backend platform.",
-        "Collaborated with client stakeholders to clarify requirements and translate business needs into technical designs and implementation plans."
+        "Delivered 2 applied-AI pipelines: a 3D spine-reconstruction workflow using gradient boosting, convolutional networks, and generative methods, and an isolation-forest anomaly detector for large-scale ISIC dermatology data."
       ]
     },
     {
-      "name": "Concept Solution SRL",
+      "name": "Hewlett Packard Enterprise",
+      "position": "DevOps Engineer, Telecommunications Consultant",
+      "location": "Milan, Italy",
+      "startDate": "2022",
+      "endDate": "2024",
+      "summary": "DevOps and consulting role delivering CI/CD, backend integration, and delivery automation for a major telecommunications customer.",
+      "highlights": [
+        "Built a Jenkins, Java, Spring, and SQL deployment system for 1 major telecommunications customer, reducing release execution time by approximately 90% while improving repeatability and operational reliability.",
+        "Owned delivery across 3 stakeholder groups---client representatives, software developers, and operations engineers---translating business requirements into technical designs, implementation plans, and production releases.",
+        "Implemented Java and SQL backend integrations and introduced containerized delivery components, removing production blockers across multiple release cycles."
+      ]
+    },
+    {
+      "name": "Concept Solution",
       "position": "IT Consultant",
-      "location": "Pompei, IT",
-      "startDate": "2020-09",
-      "endDate": "2021-07",
-      "summary": "Consulting role focused on solution design and development planning across multiple emerging technology domains.",
+      "location": "Pompei, Italy",
+      "startDate": "2020",
+      "endDate": "2021",
       "highlights": [
-        "Authored solution design and development plans for systems using user profiling, robotic process automation (RPA), blockchain-based traceability, and recommendation systems for e-commerce in close collaboration with business stakeholders."
-      ]
-    },
-    {
-      "name": "Università Campus Bio-Medico di Roma",
-      "position": "Instructor — Summer School on Artificial Intelligence in Health and Life Sciences",
-      "location": "Rome, IT",
-      "startDate": "2025-09",
-      "endDate": "2025-09",
-      "summary": "Short teaching appointment delivering lectures and hands-on sessions on neuroimaging-based brain age prediction.",
-      "highlights": [
-        "Delivered theoretical and practical sessions on brain age prediction from neuroimaging features using statistical, machine learning, and deep learning methods (Python; scikit-learn; statsmodels).",
-        "Released a custom Kaggle dataset and accompanying code repository."
-      ],
-      "projects": [
-        {
-          "name": "Preprocessed IXI dataset (Kaggle)",
-          "url": "https://www.kaggle.com/datasets/kingpowa/preprocessed-ixi-dataset-with-fs8"
-        },
-        {
-          "name": "Brain age lessons (GitHub)",
-          "url": "https://github.com/KingPowa/brain_age_lessons"
-        }
+        "Supported 4+ digital-transformation initiatives spanning robotic process automation, customer profiling, blockchain traceability, and e-commerce recommendation systems by translating business requirements into technical solution designs."
       ]
     }
   ],
@@ -102,159 +106,80 @@
     {
       "institution": "Politecnico di Milano",
       "area": "Computer Science and Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09",
-      "endDate": "2022-10",
-      "score": "110 cum laude/110; GPA: 29.43/30",
-      "courses": [
-        "Artificial Intelligence focused path",
-        "Thesis on Reinforcement Learning"
-      ],
-      "location": "Milan, IT"
+      "studyType": "Master of Science",
+      "endDate": "2022",
+      "score": "110/110 cum laude; GPA: 29.43/30",
+      "courses": ["Artificial Intelligence focused path", "Thesis on Reinforcement Learning"],
+      "location": "Milan, Italy"
     },
     {
-      "institution": "Università degli Studi di Napoli Federico II",
+      "institution": "University of Naples Federico II",
       "area": "Computer Science and Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2017-09",
-      "endDate": "2020-07",
-      "score": "110 cum laude/110; GPA: 29.70/30",
-      "courses": [
-        "Computer science, mathematics, and physics background (incl. databases, software engineering, cybersecurity)"
-      ],
-      "location": "Naples, IT"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Apple Academy",
-      "issuer": "Università degli Studi di Napoli Federico II",
-      "startDate": "2019-09",
-      "endDate": "2020-08",
-      "date": "2020-08",
-      "summary": "Closed-number course focused on app development and project management fundamentals; developed various applications in Swift and SwiftUI.",
-      "location": "Naples, IT"
-    },
-    {
-      "name": "Cyber Challenge",
-      "issuer": "Università di Napoli Parthenope",
-      "startDate": "2018-05",
-      "endDate": "2018-07",
-      "date": "2018-07",
-      "summary": "Closed-number course focused on cybersecurity fundamentals; administered challenges on networking, reverse engineering, pwning, and cryptography.",
-      "location": "Naples, IT"
+      "studyType": "Bachelor of Science",
+      "endDate": "2020",
+      "score": "110/110 cum laude; GPA: 29.70/30",
+      "courses": ["Computer science, mathematics, and physics background, including databases, software engineering, and cybersecurity"],
+      "location": "Naples, Italy"
     }
   ],
   "publications": [
     {
-      "name": "Medsamix: A training-free model merging approach for medical image segmentation",
-      "publisher": "arXiv",
-      "releaseDate": "2025-08",
+      "name": "MedSAMix: A Training-Free Model Merging Approach for Medical Image Segmentation",
+      "publisher": "AAAI / arXiv",
+      "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2508.11032",
-      "summary": "arXiv preprint arXiv:2508.11032 (AAAI). Authors: Yang Y., Su G., Hu J., Sammarco F., Geiping J., Wolfers T."
+      "summary": "Authors: Yang Y.*, Su G.*, Hu J.*, Sammarco F., Geiping J., Wolfers T."
     },
     {
       "name": "Lightweight Model for Session-Based Recommender Systems with Seasonality Information in the Fashion Domain",
-      "publisher": "ACM (Recommender Systems Challenge)",
+      "publisher": "ACM RecSys Challenge",
       "releaseDate": "2022",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3556702.3556829",
-      "summary": "In Proceedings of the Recommender Systems Challenge. Authors include Sammarco F. et al."
+      "url": "https://dl.acm.org/doi/10.1145/3556702.3556829",
+      "summary": "Authors: Della Volpe N.*, Mainetti L.*, Martignetti A.*, Menta A.*, Pala R.*, Polvanesi G.*, Sammarco F.*, et al."
     }
   ],
   "projects": [
     {
-      "name": "Thesis: Non-Stationary Reinforcement Learning for Trading",
-      "type": "academic",
-      "startDate": "2021-09",
-      "endDate": "2022-10",
-      "description": "Non-Stationary RL for Forex Trading with Automatic Market Regime Clustering.",
-      "highlights": [
-        "Built an automatic trading system for Forex assets using FQI reinforcement learning (gym).",
-        "Integrated clustering and gradient-boosted classification (XGBoost) techniques."
-      ],
-      "url": "https://www.politesi.polimi.it/handle/10589/165438",
-      "keywords": ["Reinforcement Learning", "FQI", "Forex", "Clustering", "XGBoost", "gym"]
+      "name": "ACM RecSys Challenge and Publication",
+      "type": "achievement",
+      "endDate": "2022",
+      "description": "Ranked 29th among 250+ teams in ACM RecSys Dressipi challenge by developing session-based ranking and seasonality features, achieving private-leaderboard MRR 0.1845 and contributing to peer-reviewed publication.",
+      "keywords": ["Recommender Systems", "Session-Based Ranking", "Seasonality", "ACM RecSys"]
     },
     {
-      "name": "Recommender System Challenges (RecSys, H&M, Internal)",
-      "type": "competition",
-      "startDate": "2022-03",
-      "endDate": "2022-07",
-      "description": "Recommender systems built for academic and industry challenges.",
-      "highlights": [
-        "Developed a TV-series recommender using EASEr, matrix factorization methods, and SLIM.",
-        "Built fashion-oriented recommenders using GRU4Rec and latent factorization approaches; trained via AWS.",
-        "Participated in H&M and Dressipi challenges (Dressipi associated with RecSys Conference 2022)."
-      ],
-      "keywords": ["Recommender Systems", "EASEr", "SLIM", "GRU4Rec", "AWS", "RecSys"],
-      "url": "https://github.com/KingPowa/Rec_Sys_2022_Boston_Team"
-    },
-    {
-      "name": "Artificial Neural Network Challenges",
-      "type": "academic",
-      "startDate": "2020-10",
-      "endDate": "2021-01",
-      "description": "Course challenges spanning supervised/unsupervised deep learning tasks.",
-      "highlights": [
-        "Built architectures for image segmentation/detection (incl. YOLO-style approaches), text classification, and sequence modeling (RNNs)."
-      ],
-      "keywords": ["Deep Learning", "YOLO", "Segmentation", "Detection", "Text Classification", "RNNs"],
-      "url": "https://www.kaggle.com/kingpowa/competitions?tab=completed"
-    },
-    {
-      "name": "Website with Java supported back-end",
-      "type": "application",
-      "startDate": "2019-10",
-      "endDate": "2020-01",
-      "description": "Java-based web application for quizzes with score tracking and user management.",
-      "highlights": [
-        "Implemented quiz logic, scoring, and user management features."
-      ],
-      "keywords": ["Java", "Web", "Quizzes", "User Management"],
-      "url": "https://github.com/alemartignetti/GamifiedMarketing"
-    },
-    {
-      "name": "Thesis on Genetic Algorithms",
-      "type": "academic",
-      "startDate": "2020-04",
-      "endDate": "2020-07",
-      "description": "Application of Genetic Algorithms to the Flexible Job Shop Scheduling problem.",
-      "highlights": [
-        "Developed a Python-based genetic algorithm system for job-shop scheduling."
-      ],
-      "keywords": ["Genetic Algorithms", "Scheduling", "Python", "Optimization"],
-      "url": "https://github.com/KingPowa/Genetic_Algorithm_FJSP"
+      "name": "AI Summer School Instructor",
+      "type": "teaching",
+      "endDate": "2025",
+      "description": "Designed and delivered hands-on AI sessions for health and life-science participants using 1 reproducible neuroimaging codebase and a published, preprocessed dataset.",
+      "url": "https://github.com/KingPowa/brain_age_lessons",
+      "keywords": ["AI", "Neuroimaging", "Teaching", "Python"]
     }
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "Generative AI",
       "level": "Advanced",
-      "keywords": ["Python", "Java", "SQL", "C", "C++", "Swift", "C#", "JavaScript", "MATLAB", "HTML", "CSS"]
+      "keywords": ["LangGraph", "LangChain", "CrewAI", "Multi-agent orchestration", "ReAct workflows", "Tool calling", "MCP", "RAG", "GraphRAG", "Structured output", "LLM evaluation", "Prompt engineering", "Stateful workflows", "Tracing"]
     },
     {
-      "name": "ML / Data Libraries",
+      "name": "Programming",
       "level": "Advanced",
-      "keywords": ["PyTorch", "TensorFlow", "scikit-learn", "pandas", "NumPy", "OpenCV", "nilearn", "matplotlib", "gym"]
+      "keywords": ["Python", "SQL", "Java", "C++", "JavaScript", "Bash"]
     },
     {
-      "name": "Frameworks & Tools",
+      "name": "Cloud & DevOps",
       "level": "Advanced",
-      "keywords": ["Spring", "JPA/Hibernate", "Docker", "Kubernetes", "Jenkins", "Git", "GitHub", "GitLab", "AWS", "Ansible", "Vagrant", "Weights & Biases", "MLflow", "Slurm"]
+      "keywords": ["Google Cloud fundamentals", "AWS", "Azure", "Terraform", "Kubernetes", "Docker", "Jenkins", "GitHub Actions", "GitLab CI/CD", "SLURM", "Linux"]
+    },
+    {
+      "name": "AI & Data",
+      "level": "Advanced",
+      "keywords": ["PyTorch", "scikit-learn", "pandas", "NumPy", "OpenCV", "Qdrant", "Neo4j", "MLflow", "Weights & Biases"]
     }
   ],
   "languages": [
-    {
-      "language": "Italian",
-      "fluency": "Native (C2)"
-    },
-    {
-      "language": "English",
-      "fluency": "Advanced (C1)"
-    },
-    {
-      "language": "German",
-      "fluency": "Basic (A2)"
-    }
+    {"language": "Italian", "fluency": "Native"},
+    {"language": "English", "fluency": "C1"},
+    {"language": "German", "fluency": "A2, actively studying"}
   ]
 }
