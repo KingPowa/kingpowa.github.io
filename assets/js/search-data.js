@@ -414,6 +414,11 @@ ninja.data = [{
           description: "A recommender system framework for Recsys 2022 for session-based fashion recommendation that we used in our paper.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/recsys22.html";
+            },},{id: "projects-speaker-captions",
+          title: 'Speaker Captions',
+          description: "A local captioning app that combines speech recognition and face tracking to label who is speaking in a video.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/speaker-captions/";
             },},{id: "projects-non-stationary-rl-for-forex-trading",
           title: 'Non-Stationary RL for Forex Trading',
           description: "A reinforcement-learning framework that clusters FX market regimes from the behavior of offline-trained trading agents, then trains regime-specialized policies and predicts the next regime to improve returns.",
